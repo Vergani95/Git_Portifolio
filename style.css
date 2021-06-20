@@ -1,7 +1,47 @@
-.bkgimg{
-    background-image: image();
+* {
+    margin: 0;
+    padding: 0;
+  }
 
+    body {
+        font-family: Monserrat, sans-serif
+    }
+    p{
+        color: #475550
+    }
 
+    /* <img class="bkgimg" src="https://image.freepik.com/fotos-gratis/codigo-fonte-da-area-de-trabalho-e-papel-de-parede-por-linguagem-de-computador-com-codificacao-e-programacao_33771-595.jpg" alt="Papel de parede  com um codico de programação aparente utulizado como fundo do site">   */
+.header{
+    background-image: url(https://image.freepik.com/fotos-gratis/codigo-fonte-da-area-de-trabalho-e-papel-de-parede-por-linguagem-de-computador-com-codificacao-e-programacao_33771-595.jpg);
+    background-size: cover;
+    float: right;
+   
+}
+
+.title {
+    color: azure;
+    style="font-family: Mulish, serif"
+    ;
+    background-image: url(https://c.wallhere.com/photos/2c/31/simple_simple_background_minimalism_black_background_space-1382933.jpg!d);
+    background-size: cover;
+    padding: 10px;
+}
+
+.intro
+{
+    float: right;
+    margin-top: 100px;
+    margin-right: 70px;
+    text-align: justify;
+    width: 60%;
+    background-color: rgb(0, 0, 0);
+}
+
+.profilepic{
+     float: left;
+     margin: 30px 40px;
+     border-radius: 10%;
+    
 }
 
 
