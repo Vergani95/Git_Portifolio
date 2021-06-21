@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: 0;
+    padding: 10;
   }
 
     body {
@@ -19,18 +19,37 @@
 }
 
 .title {
-    color: azure;
+    font-size: 40px;    
     style="font-family: Mulish, serif"
-    ;
+;
     background-image: url(https://c.wallhere.com/photos/2c/31/simple_simple_background_minimalism_black_background_space-1382933.jpg!d);
     background-size: cover;
     padding: 10px;
 }
 
+.titlees{
+    text-align: center;
+    font-size: 40px;
+    color: azure;
+}
+
+.stitle{
+    color: whitesmoke;
+    padding: 20px 10px 30px 0px;
+}
+
+.stitle2{
+    color: whitesmoke;
+    padding-bottom: 20px;
+   
+}
+
+
 .intro
 {
+    font-size: px;
     float: right;
-    margin-top: 100px;
+    margin-top: 20px;
     margin-right: 70px;
     text-align: justify;
     width: 60%;
@@ -39,9 +58,19 @@
 
 .profilepic{
      float: left;
-     margin: 30px 40px;
-     border-radius: 10%;
+     margin: 0px 10px 40px 60px;
+     border-radius: 30px;
+     width: 30%;
     
 }
 
+.infos{
+    background-image: url(https://c.wallhere.com/photos/2c/31/simple_simple_background_minimalism_black_background_space-1382933.jpg!d) ;
+    color: #475550;
+}
 
+.sm {
+    
+padding: 20px;
+
+}
