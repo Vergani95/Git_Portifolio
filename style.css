@@ -7,7 +7,9 @@
         font-family: Monserrat, sans-serif
     }
     p{
-        color: #475550
+        color: #475550;
+        font-size: 12;
+        
     }
 
     /* <img class="bkgimg" src="https://image.freepik.com/fotos-gratis/codigo-fonte-da-area-de-trabalho-e-papel-de-parede-por-linguagem-de-computador-com-codificacao-e-programacao_33771-595.jpg" alt="Papel de parede  com um codico de programação aparente utulizado como fundo do site">   */
@@ -19,7 +21,7 @@
 }
 
 .title {
-    font-size: 40px;    
+    font-size: 32px;    
     style="font-family: Mulish, serif"
 ;
     background-image: url(https://c.wallhere.com/photos/2c/31/simple_simple_background_minimalism_black_background_space-1382933.jpg!d);
@@ -29,18 +31,20 @@
 
 .titlees{
     text-align: center;
-    font-size: 40px;
+    font-size: 32px;
     color: azure;
 }
 
 .stitle{
     color: whitesmoke;
     padding: 20px 10px 30px 0px;
+    
 }
 
 .stitle2{
     color: whitesmoke;
-    padding-bottom: 20px;
+    padding: 20px;
+    ;
    
 }
 
@@ -54,6 +58,7 @@
     text-align: justify;
     width: 60%;
     background-color: rgb(0, 0, 0);
+    margin-bottom: 50px;
 }
 
 .profilepic{
@@ -67,10 +72,43 @@
 .infos{
     background-image: url(https://c.wallhere.com/photos/2c/31/simple_simple_background_minimalism_black_background_space-1382933.jpg!d) ;
     color: #475550;
+    
+}
+
+.list{
+    background-color: black;
 }
 
 .sm {
     
 padding: 20px;
 
+}
+
+.elinks{
+    
+    color: whitesmoke;
+    font-size: 16px;
+    text-align: center
+
+}
+
+.sociais{
+    width: 10%;
+    text-align: center;
+    margin: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.icons{
+    border-radius: 50%;
+}
+
+
+.button{
+    background-color: grey;
+    border-radius: 2px;
+    padding: 2px 5px;
+    color: black;
 }
